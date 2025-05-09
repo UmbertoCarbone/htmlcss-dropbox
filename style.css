@@ -1,0 +1,65 @@
+/*Header */
+
+/*Color bg-inizia        #0061FE; */
+/*Color bg-inizia"hover" #97b9d3; */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dashed red;
+}
+/* Inizio Main */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_center  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  font-size:1.1rem;
+  }
+
+a {
+  text-decoration: none;
+  color:black;
+  display: flex;
+  align-items: center;
+  margin:10px;
+  padding:10px;
+}
+
+.div1 {
+  display: flex;
+}
+
+.div2 {
+display: flex;
+ }
+
+ button {
+    margin:10px;
+  padding:10px;
+  font-size: 1.1rem;
+  background-color:#0061FE;
+  color:white;
+  border:none;
+  }
+
+  button:hover {
+    background-color: #97b9d3;
+
+  }
+ /* Fine Main */
