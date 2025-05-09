@@ -2,8 +2,9 @@
 
 /*Color bg-inizia        #0061FE; */
 /*Color bg-inizia"hover" #97b9d3; */
-/* */
-/* */
+
+/* Main */
+/* bg-color Main         #B4D0E6; */
 /* */
 /* */
 /* */
@@ -64,3 +65,56 @@ button:hover {
 
 /*Inizio Main */
 /*Fine Main */
+
+[class^="col"] {
+  padding: 1rem;
+}
+
+section {
+  background-color: #b4d0e6;
+  height: 600px;
+  
+}
+.container {
+  
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  
+  margin: 0;
+  
+  
+}
+
+ /* .col-4 {
+  width: calc(100% / 12 * 4); 
+  } */
+
+.col-5 {
+  width: calc(100% / 12 * 5);
+  
+}
+
+.col-1 {
+  width: calc(100% / 12 * 12);
+}
+.card p {
+    
+    
+}
+img {
+  max-width: 40%;
+  position:relative;
+  left:50%
+}
+
+
