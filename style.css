@@ -11,7 +11,6 @@
 /* */
 /* */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -20,46 +19,45 @@
 }
 /* Inizio Main */
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.header_center  {
+.header_center {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:10px;
-  font-size:1.1rem;
-  }
+  padding: 10px;
+  font-size: 1.1rem;
+}
 
 a {
   text-decoration: none;
-  color:black;
+  color: black;
   display: flex;
   align-items: center;
-  margin:10px;
-  padding:10px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.div1 {
+.leftheader {
   display: flex;
 }
 
-.div2 {
-display: flex;
- }
+.rightheader {
+  display: flex;
+}
 
- button {
-    margin:10px;
-  padding:10px;
+button {
+  margin: 10px;
+  padding: 10px;
   font-size: 1.1rem;
-  background-color:#0061FE;
-  color:white;
-  border:none;
-  }
+  background-color: #0061fe;
+  color: white;
+  border: none;
+}
 
-  button:hover {
-    background-color: #97b9d3;
-
-  }
- /* Fine Main */
+button:hover {
+  background-color: #97b9d3;
+}
+/* Fine Main */
