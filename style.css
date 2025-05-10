@@ -68,7 +68,7 @@ button:hover {
 /*Fine Main */
 
 [class^="col"] {
-  padding: 1rem;
+  
 }
 
 section {
@@ -83,15 +83,16 @@ section {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
+  display:flex;
+  flex-direction: row;
 }
 
 .row {
   display: flex;
   flex-wrap:wrap;
   flex-direction: column;
-  margin: 0 -1rem;
-  
 }
+
 
 .col-1 {
   width: calc(100% / 12 * 1);
@@ -139,4 +140,12 @@ section {
 
    .col-12 {
   width: calc(100% / 12 * 12);
+  }
+
+  .jumbo {
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100%;
   }
