@@ -15,9 +15,9 @@
 * {
   margin: 0;
   padding: 0;
- /* box-sizing: border-box; */
-  border: 3px dashed red;
+  box-sizing: border-box;
 }
+
 /* Inizio Header */
 .logo {
   display: flex;
@@ -68,84 +68,89 @@ button:hover {
 /*Fine Main */
 
 [class^="col"] {
-  
 }
 
 section {
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
   background-color: #b4d0e6;
 }
 
-
-
-
-
 .container {
-  max-width: 1200px;
-  width: 80%;
-  margin: 0 auto;
-  display:flex;
-  flex-direction: row;
+  display: flex;
+  background-color: #b4d0e6;
 }
 
 .row {
   display: flex;
-  flex-wrap:wrap;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  font-size: 1.1rem;
 }
 
+.jumbo {
+  max-width: 100%;
+}
 
+.card {
+  width: 100%;
+}
+
+hr {
+  padding: 50px;
+}
+/*Fine Main */
+
+/* Calc */
 .col-1 {
   width: calc(100% / 12 * 1);
 }
 
 .col-2 {
   width: calc(100% / 12 * 2);
-  }
+}
 
-  .col-3 {
+.col-3 {
   width: calc(100% / 12 * 3);
-  }
+}
 
-  .col-4 {
+.col-4 {
   width: calc(100% / 12 * 4);
-  }
+}
 
-   .col-5 {
+.col-5 {
   width: calc(100% / 12 * 5);
-  }
+}
 
- .col-6 {
+.col-6 {
   width: calc(100% / 12 * 6);
-  }
+}
 
-   .col-7 {
+.col-7 {
   width: calc(100% / 12 * 7);
-  }
+}
 
-   .col-8 {
-  width: calc(100% /  12 * 8);
-  }
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
 
-   .col-9 {
+.col-9 {
   width: calc(100% / 12 * 9);
-  }
+}
 
-   .col-10 {
+.col-10 {
   width: calc(100% / 12 * 10);
-  }
+}
 
-   .col-11 {
+.col-11 {
   width: calc(100% / 12 * 11);
-  }
+}
 
-   .col-12 {
+.col-12 {
   width: calc(100% / 12 * 12);
-  }
-
-  .jumbo {
-    max-width: 100%;
-  }
-
-  .card {
-    width: 100%;
-  }
+}
