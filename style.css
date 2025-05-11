@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* Inizio Header */
@@ -167,3 +168,20 @@ div h3 {
   height: 50px;
 }
 
+.plan-business {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.flex-between {
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+.container2 {
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 50px;
+ 
+}
