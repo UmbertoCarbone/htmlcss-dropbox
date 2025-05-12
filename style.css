@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  border: 1px dashed red;
 }
 
 /* Inizio Header */
@@ -69,6 +69,7 @@ button:hover {
 /*Fine Main */
 
 [class^="col"] {
+  padding: 1rem;
 }
 
 h1 {
@@ -115,6 +116,7 @@ hr {
 
 .col-4 {
   width: calc(100% / 12 * 4);
+  padding:1rem;
 }
 
 .col-5 {
@@ -149,10 +151,6 @@ hr {
   width: calc(100% / 12 * 12);
 }
 
-.container1 {
-  margin-top: 50px;
-  margin-left: 20px;
-}
 .row1 {
   display: flex;
   justify-content: center;
@@ -169,19 +167,42 @@ div h3 {
 }
 
 .plan-business {
-  text-align: center;
   font-size: 2rem;
 }
 
 .flex-between {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
+}
+
+.card1 {
+  border: 1px solid grey;
+}
+
+.partners {
+  max-width: 100%;
+}
+
+.row2 {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+
+  
+ 
   
 }
 
-.container2 {
-  margin-top: 50px;
-  margin-left: 20px;
-  padding: 50px;
- 
+.partner-dropbox {
+  h2 {
+    padding-top: 1rem;
+  }
+  p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+img {
+  max-width: 100%;
 }
