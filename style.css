@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px dashed red;
 }
 
 /* Inizio Header */
@@ -78,6 +77,10 @@ h1 {
   background-color: #b4d0e6;
 }
 
+main hr {
+  padding:50px
+}
+
 .container {
   display: flex;
   background-color: #b4d0e6;
@@ -96,9 +99,6 @@ h1 {
   max-width: 100%;
 }
 
-hr {
-  padding: 10px;
-}
 /*Fine Main */
 
 /* Calc */
@@ -116,7 +116,7 @@ hr {
 
 .col-4 {
   width: calc(100% / 12 * 4);
-  padding:1rem;
+  padding: 1rem;
 }
 
 .col-5 {
@@ -184,13 +184,9 @@ div h3 {
 }
 
 .row2 {
-display: flex;
-flex-wrap: wrap;
-text-align: center;
-
-  
- 
-  
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .partner-dropbox {
@@ -205,4 +201,36 @@ text-align: center;
 
 img {
   max-width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 500px;
+
+  hr {
+    width: 10%;
+    margin:50px;
+  }
+}
+
+.row3 {
+  display: flex;
+
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+.worldit {
+  display: flex;
+  margin-left: 90px;
 }
